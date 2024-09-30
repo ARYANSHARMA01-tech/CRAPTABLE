@@ -108,7 +108,7 @@ public class ImageEncrypt extends AppCompatActivity {
                 try {
                     bitmap = ImageDecoder.decodeBitmap(source);
                     ByteArrayOutputStream stream = new ByteArrayOutputStream();
-                    bitmap.compress(Bitmap.CompressFormat.JPEG,4, stream);
+                    bitmap.compress(Bitmap.CompressFormat.JPEG,10, stream);
                     byte[] bytes = stream.toByteArray();
                     sImage = Base64.encodeToString(bytes, Base64.DEFAULT);
                     encImgToText.setText(sImage);

@@ -188,7 +188,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="30dp"
         android:text=" 🔒 Empowering Your Privacy 🔒 "
-        android:textColor="#03082b"
+        android:textColor="#FFF"
         android:textSize="15.5sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
